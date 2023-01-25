@@ -79,7 +79,7 @@ li {
 .nav .fa-bars,
 .nav .fa-times {
   cursor: pointer;
-  display:none; 
+  display: none;
 }
 
 .nav .nav-links.active {
