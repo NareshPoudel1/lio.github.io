@@ -1,50 +1,504 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CDN Font Awesome for Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="mainStyle.css" />
-    <title></title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="nav">
-        <a href="https://github.com/FollowMe321" target="_blank" class="logo"
-          >Naresh GitHub</a>
-        
-        <ul class="nav-links">
-          <li><a href="">Home</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <button class="btn">Sign Up</button>
-          <button class="btn">Login</button>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Anup Tiwari</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="scss/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div> -->
+    <!-- End #mobile-menu-toggle -->
+    <!-- <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#certifications">Certifications</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
         </ul>
-        <i class="fas fa-bars" id="menu-btn_open"></i>
-        <i class="fas fa-times" id="menu-btn_close"></i>
-      </nav>
-      <header>
-        <h2>Hi,</h2>
-        <h2>I'm Naresh!</h2>
-        <h4>Welcome to my GitHub</h4>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga sequi
-          necessitatibus asperiores officia eos tenetur a voluptatem ducimus, ut
-          quisquam ad, quia et minima tempora excepturi cumque earum, laudantium
-          ipsum.
-        </p>
-        <button class="btn">Reed more...</button>
-      </header>
+    </header> -->
+    <!-- End header -->
+    <nav  style="text-align:right;padding:9px; background-color: #232525e5; position:fixed; width:100%; z-index: 100; ">
+       <a style="color: aliceblue;" href="#lead" id="text">Home &nbsp;</a>
+          <a style="color: aliceblue;" href = "#about" id="text">About &nbsp;</a>
+        <a style="color: aliceblue;"href="#experience" id="text">Experience &nbsp;</a>
+        <a style="color: aliceblue;" href="#education" id="text">Education &nbsp;</a>
+        <a style="color: aliceblue;" href="#certifications" id="text">Certifications &nbsp;</a>
+        <a style="color: aliceblue;" href="#projects" id="text">Projects &nbsp;</a>
+        <a style="color: aliceblue;" href="#skills" id="text">Skills&nbsp;</a>
+        <a style="color: aliceblue;" href="#contact" id="text">Contact&nbsp;</a>
+    </nav>
+
+    <!-- <div id="lead">
+        <div id="overlay"></div>
+        <div id="lead-content">
+            <img style="margin-top:60px; margin-bottom:60px; width:300px; height:300px; border-radius: 50%;" src="../images/Anup.jpg"/>
+            <br>
+            <h1>Anup Tiwari</h1>
+        
+    
+            <h2>Cybersecurity Enthusiast</h2>
+            <a href="https://drive.google.com/file/d/1QmVqqxCW011meGo0OyS-dgO6gZr-2PnJ/view?usp=sharing" target="_blank"
+                class="btn-rounded-white">View Resume</a>
+                <a href="https://www.linkedin.com/in/tiwarianup547/" target="_blank"
+                class="btn-rounded-white">Visit LinkedIn</a> 
+                </a>
+                
+        </div> -->
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+
+        <!-- <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div> -->
+        <!-- End #lead-down -->
+    <!-- End #lead -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <img src="./images/Anup.jpg" style="height: 250px; width: 250px; border-radius: 50%; margin-bottom: 40px; margin-top: 10rem;"/>
+            <h1 style="font-size: 3em; font-weight: 900; text-transform: uppercase;  letter-spacing: 0.05em;   line-height: 0.9em;">Anup Tiwari</h1>
+            <h2 class="job">Cybersecurity Enthusiast</h2>
+            <a href="images\Anup_resume.pdf" target="_blank"
+                class="btn-rounded-white">View Resume</a>
+
+                <a href="https://www.linkedin.com/in/tiwarianup547/" target="_blank"
+                class="btn-rounded-white">Visit LinkedIn</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <!-- <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div> -->
+        <!-- End #lead-down -->
     </div>
-    <script src="nav.js"></script>
-  </body>
+    <!-- End #lead -->
+
+    <div id="about" style="background-color: #c5c3a379;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p style="color:rgba(0, 0, 0, 0.658)">
+                        Hi there, and welcome to my portfolio! My name is Anup Tiwari, and I am a passionate and dedicated cybersecurity professional with strong background in 
+                      defensive cybersecurity. I am pursuing a Bachelor of Science in Information systems at the University of Texas at Arlington, with a graduation date of May 2023.
+                        Currently, I am working as a Cybersecurity Analyst at Costco's Logging and Detection Engineering Department, where I have had the opportunity to work with Splunk and explore other cybersecurity teams such as SOC, Incident Response, and Endpoint Security. Additionally, I have gained valuable experience as a Consulting Engineering Associate intern at Heartland Business Systems and a Technology Assistant at the University of Texas at Arlington's Human Resources Department.
+I enjoy the challenge of troubleshooting and have a strong ability to work well with both technical and non-technical individuals. While I am a self-learner at heart, 
+I also enjoy collaborating and working on challenges as a team. I strongly believe in continually expanding my knowledge and skill set by exposing myself to new 
+challenges and environments.Currently, I am pursuing the Cyber Defense and SOC Analyst Level 1 path on TryHackMe to further develop my Blue Team cybersecurity skills.
+   I am always eager to learn and excited about what the future holds in the ever-evolving field of cybersecurity. Thank you for taking the time to explore my portfolio, and I look forward to connecting with you soon!
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt" style ="background-color: #92f0f027;">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+ 
+            
+            <div data-date="January 2023 - Present" style ="background-color: #85d1d12d;">
+                <h3>Cybersecurity Analyst intern</h3>
+                <h4>Security Logging and Detection Engineering
+                <br> Costco IT,   &nbsp; &nbsp; Arlington, TX</h4>
+                <p style="color:rgba(0, 0, 0, 0.692)">
+
+
+
+               
+                 <br><ul style="font-size: 0.9em; background-color: #d4bfa90d; color:rgba(0, 0, 0, 0.692)">
+
+                 <li>  Committed to obtaining Splunk Core Certified User certification by completing a series of hands-on labs to develop
+practical skills in utilizing Splunk for data analysis and visualization.</li>
+                     <li>Demonstrated initiative and leadership by creating an internal Google intranet site providing comprehensive Splunk
+documentation and useful resources for the Logging and Detection Engineering team and other cybersecurity teams,</li>
+                 <li> Demonstrated a proactive approach to learning and professional development by shadowing other teams, including
+SOC, Incident Response, and Endpoint Security, to gain a deeper understanding of their roles and responsibilities.</li>
+                <li>Developed a flowchart to visualize the process of how endpoint logs are filtered in Log Analytics workspace and sent to
+EventHub and Splunk for further analysis.
+             
+                    
+                   </ul>
+                </p>
+            </div>
+        
+        
+
+
+            <div data-date="August 2022 - January 2023" style ="background-color: #85d1d12d;">
+                <h3>Technology Assistant</h3>
+                <h4>Human Resources Department
+                <br> The University of Texas at Arlington,   &nbsp; &nbsp; Arlington, TX</h4>
+                <p style="color:rgba(0, 0, 0, 0.692)">
+
+
+
+                    After the completion of the Endpoint Project Management, I joined the Human Resources Department as an Internal IT that had 40 non-technical employees. I have always been a social person and love communicating with
+                    people. This was a good opportunity for me to involve with 
+                    a lot of non-technical people and help them in meeting their technical as well as non-technical demands.<br>
+                    <br>
+         
+                 <ul style="font-size: 0.9em; background-color: #d4bfa90d; color:rgba(0, 0, 0, 0.692)">
+
+                 <li> Installed, configured, and maintained hardware and peripherals, including printers and scanners, to ensure smooth and uninterrupted operation of computer systems.</li>
+                 <li>Diagnosed and resolved hardware, software, and peripheral issues promptly to minimize downtime and maintain productivity.</li>
+                <li>Coordinated with the Office of Information Technology through a ticketing system to troubleshoot and resolve complex technical issues.</li>
+                <li> Installed and maintained software applications, such as Microsoft Office Suite and Adobe, ensuring that all necessary updates and patches were applied. </li>
+                <li> Utilized ticket tracking system (Service-now) to accurately document client information and all work performed, ensuring accurate data entry and efficient workflow management.</li>    
+                <li> Ensured data security and privacy by performing data sanitization techniques, such as degaussing and data wiping, on retired hardware.</li>
+                <li> Maintained up-to-date knowledge of industry trends and emerging technologies to provide proactive support and recommend system improvements.</li>
+                    
+                    </ul>
+                </p>
+            </div>
+
+            <div data-date="May 2022 - August 2022" style ="background-color: #85d1d12d;; ">
+                <h3>Consulting Engineering Associate</h3>
+                <h4>Heartland Business Systems,  &nbsp; &nbsp; Pewaukee, WI</h4>
+                <p style="color:rgba(0, 0, 0, 0.692)">
+                    During my junior year, I worked as a Consulting Engineer Associate at Heartland Business Systems where I gained experience in the IT consulting
+                    industry. In this role, I worked with two small to medium-sized businesses and had the opportunity to play the roles of both a system administrator
+                    and network engineer. The experience was invaluable as it allowed me to learn about Microsoft 365 Identity and Services.<br>
+                    <br>
+                 
+                    <ul style="font-size: 0.9em; background-color: #d4bfa90d; color:rgba(0, 0, 0, 0.692)">
+                        <li>Gained insights into the workings of IT consulting business and the importance of effective communication with clients to understand their
+                            needs and deliver tailored solutions.</li>
+                        <li> Provided technical support to non-technical staff through remote and in-person help desk troubleshooting as a consultant.</li>
+                        <li> Deployed Microsoft Defender for Endpoint on 30 laptops, reducing the attack surface and improving malware detection.</li>
+                        <li> Developed security baselines using Defender Vulnerability Management tools and implemented real-time remediation.</li>
+                        <li>Maintained routine backups of company data to prevent loss of critical information.</li>
+                        <li> Managed users, computer accounts, and licenses in both Azure and On-Premises Active Directory.</li>
+                        <li> Collaborated with other interns to learn more about tools and technology. </li>
+                    </ul>
+                </p>
+            </div>
+
+
+            <div data-date="January 2022 - August 2022" style ="background-color: #85d1d12d;;" >
+                <h3>Technology Assistant</h3>
+                <h4>EndPoint Management<br>
+                    The University of Texas at Arlington,  &nbsp; &nbsp; Arlington,TX</h4>
+                <p style="color:rgba(0, 0, 0, 0.692)">
+                    As a Technology Assistant for Endpoint Management, I gained my first real-life IT experience and started building my knowledge of Active Directory,
+                    Microsoft Intune, SCCM, and Endpoint Protection. This position pushed me to become a problem solver and a self-learner, which has been invaluable
+                    to my career. Through the endpoint management project, I contributed to enhancing the overall protection of university assets, ensuring protection 
+                    against malware, cyber-attacks, viruses, spyware, or other unauthorized activities. The project also offered greater flexibility to support 
+                    faculty and staff from various locations while ensuring critical updates are maintained on the University devices. This experience taught me the
+                    importance of keeping systems secure and up-to-date while providing a seamless user experience. <br>
+                    
+                    <br>
+                       <ul style="font-size: 0.9em; background-color: #d4bfa90d; color:rgba(0, 0, 0, 0.692)">
+                    <li> Enrolled University-owned devices in the university domain for centralized cloud security management.</li>
+                    <li>Implemented endpoint security measures such as passwords, bitlocker, and device encryption.</li>
+                    <li>Provided technical support for basic software, hardware, and peripheral troubleshooting.</li>
+                    <li>Maintained detailed incident logs and ongoing status updates in ServiceNow management system</li>
+                    <li> Communicated effectively with clients during device drop-off and pick up</li>
+                
+                </ul>
+
+
+                </p>
+            </div>
+
+            <div data-date="August 2021 - January 2022" style ="background-color: #85d1d12d;;">
+                <h3>Peer Academic Leader</h3>
+                <h4>The University of Texas at Arlington,  &nbsp; &nbsp;Arlington, TX </h4>
+                <p style="color:rgba(0, 0, 0, 0.692)">
+                    As a Peer Academic Leader at The University of Texas at Arlington, I demonstrated strong leadership skills while mentoring 35 freshman students.
+                   I provided both academic and social guidance to help ease the transition from high school to university life. Through collaboration with professors
+                    and academic departments, I was able to effectively guide students in their academic pursuits. This experience allowed me to enhance my public 
+                    speaking, leadership, and organizational skills, further contributing to my personal and professional growth.<br>
+                    <br>
+                    <ul style="font-size: 0.9em; background-color: #d4bfa90d; color:rgba(0, 0, 0, 0.692)">
+                        <li>Mentored a group of three freshmen to ensure a smooth transition from high school to college by providing academic and social support.</li>
+                        <li> Collaborated with professors to develop and execute effective lesson plans, including the creation of study groups to enhance the students' learning experience.</li>
+                          <li>Assisted professors and students in conducting experiments during Engineering Lab sessions, providing technical support and ensuring safety protocols were followed.</li>
+                    </ul>
+                </p>
+            </div>
+
+
+         
+
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education" style="background-color: #fff5ebaf;">
+        <h2 class="heading">Education</h2>
+        <div class="education-block" style="background-color:rgba(238, 230, 215, 0.315);">
+            <h3>University of Texas at Arlington,  &nbsp; &nbsp; Arlington, TX</h3>
+            <span class="education-date">August 2019 - May 2023</span>
+            <h4>Bachelor of Science in Infromation Systems</h4>
+            <p style="color:black ;">
+            <ul style="color:rgba(0, 0, 0, 0.822)">
+                <li>
+                    Introduction to Cybersecurity
+                </li>
+                <li>
+                   Computer Networks and Distributed Computing 
+                </li>
+                <li>
+                    Introduction to Python
+                </li>
+                <li>
+                    Introduction to Java
+                </li>
+                <li>
+                  Infromation Systems Analysis and Design  
+                </li>
+                <li>
+                    Introduction to E-Commerce
+                </li>
+
+
+
+            </ul>
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+
+
+    <div id="certifications" style="background-color: #8bb9400c;">
+        <h2 class="heading">Certifications</h2>
+        <div class="education-block" style="background-color: #bce7bc2d;">
+            
+            <h4>CompTIA Security+ &nbsp;&nbsp;&nbsp;<a href="images\CompTIA Security+ ce certificate (1).pdf" target="_blank"
+                class="btn-rounded-blue"> View Certificate<font-size:10px;></a></h4>
+            
+            <h4>Splunk Core Certified User &nbsp;&nbsp;&nbsp;<a href="images\splunk.pdf" target="_blank"
+                class="btn-rounded-blue"> View Certificate<font-size:10px;></a></h4>
+    
+            <h4>MS-100 Udemy &nbsp;&nbsp;&nbsp;<a href="images\Ms-100.pdf" target="_blank"
+                class="btn-rounded-blue"> View Certificate<font-size:10px;></a></h4>
+
+                <h4>TryHackMe: Introduction to cybersecurity  &nbsp; &nbsp;&nbsp;<a href="images\tryhackme.pdf" target="_blank"
+                    class="btn-rounded-blue"> View Certificate  <font-size:2px;></a></h4>
+
+
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+
+    <div id="projects" class="background-alt" style="background-color: #beb4aa4a;">
+        <h2 class="heading">Projects</h2>
+        <div class="container" style="background-color: #f8d1a910;">
+            <div class = ""></div>
+                <div class="project shadow-large" >
+                    <div class="project-image">
+                        <img src="images\Honeypot.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>HoneyPot and SIEM in Azure</h3>
+                        <p>
+                            Created a honeypot in Azure with super exposed virtual machines and used powershell scripts to extract metadata
+                            from Windows Event Viewer to be forwarded to third party API to derive geolocation data. Configured log Analytics workspace
+                            in Azure to ingest custom logs containing geographic information and Azure Sentinnel (Microsoft's Cloud SIEM) to display global RDP Brute Force attack in Map.
+                        </p>  
+                        <a href="images\Honeypot.pdf"target="_blank" class="view-project">View Project</a>
+     
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images\active-directory-logo.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Active Directory HomeLab</h3>
+                        <p>
+                            Created an active Directory Homelab in laptop using virtual Box by using 2019 windows server and virtual windows 10.
+                            Installed Active Directory Domain Services, Remote Access Service / Network Address Translation and DHCP services in server,
+                            created 100 users in AD using powershell scripts, to create a sample mini-corporate environment by connecting the virtual windows 10 to the domain network.
+
+                        </p>
+                        <a href="images\Activedirectory.pdf "target="_blank" >View Project </a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images\wifi-analytics.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Wireshark Packet Capture</h3>
+
+                        <p>
+                            Captured packets using Wireshark and analyzed different protocols to get the better understanding of different packets
+                            used in network and OSI layers. Revealed the enterered credentials from testing website that uses htttp protocol.
+                        </p>
+                        
+                        <a href="images\wireshark.pdf"target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images\data.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Database Management System</h3>   
+                        <p>
+                            created a user friendly database for hotel customers and their details using Microsoft Oracle SQl.
+                        </p>
+                        <a href="images\DatasbaseFInal.pdf"target="_blank" >View Project </a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+
+
+
+
+    
+
+
+    <div id="skills" style="background-color: #a9b86717;">
+        <h2 class="heading">Skills and Tools</h2>
+        <ul style="background-color: #d4bfa90d;">
+            <li>Splunk</li>
+            <li>Active Directory</li>
+            <li>Firewall</li>
+            <li>Identity Management</li>
+            <li>Endpoint Security</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>C</li>
+            <li>Powershell</li>
+            <li>Incident Detection and Response</li>
+            <li>Vulnerability Assessment</li>
+            <li>Cryptography and Public Key Management</li>
+            <li>SIEM</li>
+            <li>Nmap</li>
+            <li>Linux</li>
+            <li>Microsoft Intune</li>
+            
+    
+
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact" style="background-color: #6484c3e7;">
+        <h2>Leave a message for me :)</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/xzbwkvdy"  method="POST">
+               
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Contact Email" required>
+
+                <textarea name="message" placeholder="Your name and message for me" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="2022">2022</span> Anup Tiwari
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/tiwarianup547/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                                    
+                        </li>
+                    
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
